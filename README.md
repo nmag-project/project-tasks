@@ -10,7 +10,7 @@ and 300 (Google Scholar) at the end of 2019.
 ### What is the status of the software?
 
 It is essentially usable: the deployment method chosen has proved surprisingly robust. 
-Based on a tarball of all required libraries, Nmag can be compiled with a little bit of care and manual corrections
+Based on a tarball of all required libraries, Nmag can be compiled with a little bit of care and manual corrections, but doesn't work out of the box.
 
 Nmag documentation is available at https://nmag.soton.ac.uk/nmag/ and in the Wiki at https://nmag.soton.ac.uk/community/wiki/nmag
 
@@ -20,10 +20,6 @@ Binaries are avaialble at https://nmag.soton.ac.uk/nmag/download.html
 
 - The server nmag.soton.ac.uk needs to be decommissed. It would be good to take all data on there, 
   and make it available elsewhere. This includes the documentation, the content of the Wiki and maybe binaries. 
-  
-  - Static html could go to nmag.github.io (or similar)
-  - Wiki content needs to be converted into static html (unless someboy wants to run a Wiki or can convert this into a github Wiki)
-  - binary files should be presereved on Zenodo
 
 - The compilation as described on the current webpages doesn't work automatically. 
   It would be good if this could be fixed and a fixed version made available.
@@ -31,12 +27,14 @@ Binaries are avaialble at https://nmag.soton.ac.uk/nmag/download.html
   needs to integrate them, and ideally create a new tarball that extracst and copmiles out of the box (at least on Linux, 
   ideally also on OS X).
   
+See below for a more detailed breakdown of the required tasks.
+  
 ## Help needed!
 
 The original developers had to move on to other tasks. 
 
 This is a call to the Nmag users: those with interest and/or skill to hepl with the above
-tasks, please step forward and contact nmag.project@gmail.com to offer to help.
+tasks, please step forward and contact nmag.project@gmail.com to offer to help. 
 
 ## Status of migration 2020
 
@@ -50,9 +48,7 @@ tasks, please step forward and contact nmag.project@gmail.com to offer to help.
 
 ### Completed
 
-#### Documentation
-
-The source is available at https://github.com/fangohr/nmag-doc, this is automatically rendered and shown at http://nmag.readthedocs.io/en/latest/. Thanks @rpep for this.
+- [X] The documentation from https://nmag.soton.ac.uk/nmag/0.2/manual/singlehtml/manual.html is available at http://nmag.readthedocs.io/en/latest/. The source of the documentation is available at https://github.com/fangohr/nmag-doc. Thanks @rpep for this.
 
 
 
