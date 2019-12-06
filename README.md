@@ -1,7 +1,7 @@
 # nmag
-NMAG - Micromagnetic modelling tool based on finite elements
+NMAG - Computationall Micromagnetics [Micromagnetic modelling tool based on finite elements]
 
-## Update 2019
+## Update regarding "Migration 2020"
 
 Nmag has not been activily developed further since around 2012. However, it is still in use 
 by several research groups; citations for the nmag paper are around 185 (Web of Science) 
@@ -33,5 +33,27 @@ Binaries are avaialble at https://nmag.soton.ac.uk/nmag/download.html
   
 ## Help needed!
 
-The original developers had to move on to other tasks. This is a call to the Nmag users: those with interest and/or skill to hepl with the above
-tasks, please step forward and contact ...
+The original developers had to move on to other tasks. 
+
+This is a call to the Nmag users: those with interest and/or skill to hepl with the above
+tasks, please step forward and contact nmag.project@gmail.com to offer to help.
+
+## Status of migration 2020
+
+### Todo
+
+- [ ] move nmag webpage to nmag.github.io (https://github.com/fangohr/nmag/issues/1)
+- [ ] update tar-ball to compile automatically and make available (https://github.com/fangohr/nmag/issues/2)
+- [ ] Update the new webpages to point to new URLs (https://github.com/fangohr/nmag/issues/3)
+- [ ] Save information from https://nmag.soton.ac.uk/community/wiki/nmag (https://github.com/fangohr/nmag/issues/4)
+- [ ] Shut down old server (https://github.com/fangohr/nmag/issues/5)
+
+### Completed
+
+#### Documentation
+
+The source is available at https://github.com/fangohr/nmag-doc, this is automatically rendered and shown at http://nmag.readthedocs.io/en/latest/. Thanks @rpep for this.
+
+
+
+
