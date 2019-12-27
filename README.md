@@ -56,6 +56,16 @@ tasks, please step forward and contact nmag.project@gmail.com to offer to help.
 
 --------------
 
+# Related repositories
+- https://github.com/fangohr/nmag - meta repository (this one)
+- https://github.com/fangohr/nmag-containers - use nmag from singularity container image
+- https://github.com/fangohr/nmag-www - source of nmag webpages
+- https://github.com/fangohr/nmag.github.io - hosting of documentation
+- https://github.com/fangohr/nmag-doc - source for documentation
+- https://github.com/fangohr/nmag-src - nmag and nsim source
+- https://github.com/fangohr/nmag-dist - building tarball distribution
+
+
 # Related information
 
 - Virtual micromagnetics provides a compiled version of Nmag in a virtual machine (http://virtualmicromagnetics.org)
