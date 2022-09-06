@@ -14,20 +14,8 @@ Based on a tarball of all required libraries, Nmag can be compiled with a little
 
 Nmag documentation is available at https://nmag-project.github.io/.
 
-Software is avaialble at https://nmag-project.github.io/download.html
+Software is available at https://nmag-project.github.io/download.html
 
-## What needs doing 
-
-- [X] The server nmag.soton.ac.uk needs to be decommissed. It would be good to take all data on there, 
-  and make it available elsewhere. This includes the documentation, the content of the Wiki and binaries. 
-
-- [ ] The compilation as described on the current webpages doesn't work automatically. 
-  It would be good if this could be fixed and a fixed version made available.
-  There are patches available (for example https://groups.google.com/forum/#!topic/nmag-users/XglwvaFdQs8), somebody 
-  needs to integrate them, and ideally create a new tarball that extracst and copmiles out of the box (at least on Linux, 
-  ideally also on OS X).
-  
-See below for a more detailed breakdown of the required tasks.
   
 ## Help needed (2020)!
 
@@ -36,12 +24,20 @@ The original developers had to move on to other tasks.
 This is a call to the Nmag users: those with interest and/or skill to hepl with the above
 tasks, please step forward and contact nmag.project@gmail.com to offer to help. 
 
-# Status of migration 2020
+## Status of migration and TODOs (started 2020)
 
-### Todo
+- [X] The server nmag.soton.ac.uk needs to be decommissed. It would be good to take all data on there, 
+  and make it available elsewhere. This includes the documentation, the content of the Wiki and binaries. 
 
-- [X] move nmag webpage to nmag.github.io (https://github.com/fangohr/nmag/issues/1)
 - [ ] update tar-ball to compile automatically and make available (https://github.com/fangohr/nmag/issues/2)
+  The compilation as described on the current webpages doesn't work automatically. 
+  It would be good if this could be fixed and a fixed version made available.
+  There are patches available (for example https://groups.google.com/forum/#!topic/nmag-users/XglwvaFdQs8), somebody 
+  needs to integrate them, and ideally create a new tarball that extracts and compiles out of the box (at least on Linux, 
+  ideally also on OS X).
+  
+- [X] move nmag webpage to nmag.github.io (https://github.com/fangohr/nmag/issues/1)
+
 - [X] Update the new webpages to point to new URLs (https://github.com/fangohr/nmag/issues/3)
 - [X] Save information from https://nmag.soton.ac.uk/community/wiki/nmag (https://github.com/fangohr/nmag/issues/4)
 - [X] Shut down old server (https://github.com/fangohr/nmag/issues/5)
